@@ -1,5 +1,5 @@
 import React from 'react';
-import './startpage.css';
+import './components/Startpage/startpage.css';
 import Footer from './components/footer/footer';
 import StartFooter from './components/Startpage/startFooter';
 
