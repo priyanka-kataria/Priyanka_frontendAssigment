@@ -44,7 +44,7 @@
     margin-top: 2rem;
     /* margin-left: -11rem; */
 }
-.Third__btn1{
+.Third_btn1{
     width: 6vw;
     height: 2.8rem;
     border-radius: 2rem;
@@ -56,7 +56,7 @@
     border: 1px solid rgb(117, 121, 117);
    
 }
-.Third__btn1:hover{
+.Third_btn1:hover{
     width: 6vw;
     color: green;
     height: 2.8rem;
