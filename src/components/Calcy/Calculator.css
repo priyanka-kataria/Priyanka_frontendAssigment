@@ -1,0 +1,255 @@
+.calculatorContainer {
+    /* font-family: Arial, sans-serif; */
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0rem 15vw;
+   padding: 3rem;
+    /* align-items: center; */
+}
+.calHeading{
+    font-size: 1.7rem;
+    font-weight: 500;
+    /* margin: rem 0; */
+    margin-top: 2.2rem;
+    color: rgb(41 43 41);
+
+}
+.calcPara{
+    color: rgb(86 93 90);
+    font-size: .7rem;
+    margin: 1rem 0;
+}
+.calcPara1{
+    color: black;
+    font-weight: 500;
+    font-size: .7rem;
+    margin: 1rem 0;
+}
+.caclyfd {
+    /* background-color: rgb(240 247 241 ); */
+    background-color: rgb(160, 196, 165);;
+   height: 80vh;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.homePrice {
+    margin-right: 2rem;
+}
+
+.HomePayment {
+    display: flex;
+    margin-top: 2rem;
+    /* width: 100vw; */
+    justify-content:space-between;
+}
+
+.btn_calcy {
+    background: rgb(66, 115, 66);
+    margin: auto 7rem;
+    margin-left: 2rem;
+    width:8rem;
+    height: 2.5rem;
+    font-size: .7rem;
+    font-weight: 600;
+    border-radius: .4rem;
+    color: #eeeef7;
+    text-align: center;
+    display: grid;
+    place-items: center;
+  outline:2px solid transparent;
+}
+
+.MonthlyInput {
+
+    width: 10rem;
+    height: 2.5rem;
+    font-size: .8rem;
+    font-weight: 600;
+    /* border-radius: .4rem;
+    color: #151517;
+    text-align: center;
+    display: grid;
+    place-items: center; */
+}
+
+.btn_calcy:hover {
+
+    background:
+    rgb(44, 64, 44);;
+
+}
+
+/* .HomepriceInput {
+    display: flex;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: .8rem;
+    flex-direction: row;
+    /* font-weight: 600;
+
+     border-radius: .4rem;
+    color: #151517;
+    text-align: center; }
+    */
+.text_alin_center{
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    margin-left: .5rem;
+    font-size: .6rem;
+    color: #3e3e42;
+}
+   .HomepriceInput{
+    display: flex;
+    height: 5vh;
+    /* justify-content: center; */
+    align-items: center;
+    width: 12vw;
+    background-color: #fff;
+    height: 8vh;
+    border-radius: .2rem;
+    outline: 1px solid rgb(27, 29, 27);
+  
+
+   }
+   .HomeInput{
+    outline: 2px solid transparent;
+    outline-color: transparent;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 2px;
+    border-style: none;
+    height: 1vh;
+    font-size: .8rem;
+    font-weight: 500;
+    width: 8vw;
+   margin-top: .1rem;
+  
+    /* margin-left: .5rem; */
+   }
+   .HomeInput3{
+    outline: 2px solid transparent;
+    outline-color: transparent;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 2px;
+    border-style: none;
+    height: 1vh;
+    font-size: .8rem;
+    font-weight: 500;
+    width: 4vw;
+   margin-top: .1rem;
+   }
+   .HomeInput1{
+    outline: 2px solid transparent;
+    outline-color: transparent;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 2px;
+    border-style: none;
+    height: 1vh;
+    font-size: .6rem;
+    width: 8vw;
+   margin-top: .1rem;
+   font-size: 24px;
+   font-weight: 500;
+    /* margin-left: .5rem; */
+   }
+
+
+.Monthly_payment {
+
+    /* margin-left: 5rem; */
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+}
+
+.section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    /* background-color: #f3f3f3; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.progress-bar .progress {
+    height: 20px;
+    background-color: #4caf50;
+}
+
+.search_box {
+    display: flex;
+
+}
+#progressBar{
+    margin: 1rem;
+    width: 90%;
+    
+}
+
+.searchBox {
+    height: 3rem;
+    width: 10vw;
+    margin: auto 1rem;
+}
+
+.search_percentage {
+    display: flex;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease; /* Add smooth transition */
+  }
+  
+  input:focus::placeholder {
+    transform: translateY(-20px); /* Move placeholder up */
+    font-size: 12px; /* Optional: Adjust font size */
+  }
+  .ZipCode{
+    outline: 1px solid rgb(27, 29, 27);
+
+    /* outline-color: transparent; 
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 2px;
+    border-style: none; */
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff
+    ;
+    margin-right: 1rem;
+    height: 6vh;
+    width: 15vw;
+  }
+  .text_alin{
+    font-size: 1.4rem;
+    margin: auto 0;
+    margin-left: .2rem;
+  }
+  .optnforloantype{
+    outline: 2px solid transparent;
+    outline-color: transparent;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 2px;
+    border-style: none;
+    height: 2.4vh;
+    font-size: .8rem;
+    width: 14vw;
+  }

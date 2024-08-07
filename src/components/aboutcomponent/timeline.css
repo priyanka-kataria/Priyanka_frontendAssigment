@@ -1,0 +1,113 @@
+.abouttimeline{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timeline{
+   position: relative;
+   margin: 5rem auto;
+}
+.container4{
+    padding: 2rem 2rem;
+  color: #534f4f;
+  position: relative;
+  width: 30vw;
+  background: rgb(223 224 220);
+}
+.company{
+     font-size: 2rem;
+     font-weight: 500;
+}
+.yearName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1 120 72);
+    margin: 0rem auto;
+    margin-bottom: 1rem;
+
+    height: 6vh;
+    color: #eee6e6;
+    width: 6vw;
+    /* font-size: 1.4rem; */
+    font-weight: 500;
+    border-radius: 2rem;
+}
+.text_box{
+    padding: 2rem 3rem;
+    background-color: #000;
+    position: relative;
+    font-size: 1rem;
+}
+.leftcontainer{
+    left:-50%;
+    /* margin-left: -15rem; */
+    /* margin-right: 31rem; */
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+}
+.timeline::after{
+   content: "";
+   position: absolute;
+   width: 6px;
+   top: 0;
+   left: 50%;
+   height: 100%;
+   margin: .6rem;
+   color: rgb(154, 154, 47);
+   background: #c6c2c2;
+   z-index: -1;
+   margin: 3px;
+}
+.rightcontainer{
+    left:55%;
+    margin-left: 2rem;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+}
+.timeBox{
+    height: 20vh;
+    width: 30vw;
+    background: rgb(191, 179, 179);
+    font-size: .8rem;
+    margin: 1rem 1rem;
+}
+.time{
+   /* margin-top: 3rem; */
+   margin: 2rem 2rem;
+}
+.vertical-line{
+    width: 2px;
+    /* Adjust the width as needed */
+  
+    height: 100vh;
+    /* Adjust the height as needed */
+  
+    background-color: #000;
+    /* Change color if desired */
+  
+    margin: 0 auto;
+    /* Center the line horizontally */
+  
+    transform: rotate(180deg);
+    /* Rotate the line to make it vertical */
+  
+}
+@media (max-width:768px){
+    .yearName{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(1 120 72);
+        margin: 0rem auto;
+        margin-bottom: 1rem;
+    
+        height: 6vh;
+        color: #eee6e6;
+        width: 9vw;
+        font-size: 1rem;
+       
+    }
+}

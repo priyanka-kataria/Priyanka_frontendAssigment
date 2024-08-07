@@ -1,0 +1,126 @@
+.AboutMainSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 15vh auto;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin-top: -2rem;
+    color: rgb(24, 22, 22);
+}
+.AboutMainSec_text1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem;
+    color: rgb(76, 110, 26);
+}
+.AboutMainSec_text2{
+ font-size: 3rem;
+ font-weight: 600;
+/* align-items: center; */
+text-align: center;
+}
+.aboutThirdsec{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    justify-content: left;
+
+
+}
+.aboutThirdsec2{
+    width: 100vw;
+    background-color: rgb(1 120 72);
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin: 6rem 6rem;
+     justify-content: center;
+    /* height: 50vh; */
+}
+.btn_about{
+    
+    background:green;
+    width: 12rem;
+    height: 3.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: .4rem;
+    color: #eeeef7;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.btn_about:hover{
+    
+    background:rgb(66, 115, 66);
+   
+}
+.text{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.text1{
+   
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.aboutcontainer{
+ 
+    display: flex;
+    width:80vw;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    justify-content: center;
+    
+}
+.aboutImg{
+    height: 19rem;
+    /* margin:auto 3rem; */
+     width: 40%;
+   
+}
+.midsec1{
+    margin: 0rem 15vw;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 4rem;
+     margin-bottom: 1rem;
+}
+.midsec2{
+    margin: 1rem 15vw;
+    /* font-size: 3rem;
+    font-weight: 500; */
+}
+.midsec3{
+    margin: 0rem 15vw;
+    /* font-size: 3rem;
+    font-weight: 500; */
+    margin-bottom: 4rem;
+}
+@media (max-width:360px) {
+    .aboutcontainer{
+ 
+        display: flex;
+        width:80vw;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        justify-content: center;
+        
+    }
+    .aboutImg{
+        height: 19rem;
+        /* margin:auto 3rem; */
+         width: 100%;
+        text-align: center;
+    }
+}

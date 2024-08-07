@@ -1,0 +1,111 @@
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+.product_btn {
+    width: 14vw;
+    height: 2rem;
+    border-radius: 2rem;
+    margin: 2rem 2rem;
+    font-size: 1rem;
+    margin-right: .5rem;
+
+}
+
+.heading_products {
+    color: black;
+    font-size: 3rem;
+    margin-left: 5rem;
+    font-weight: 600;
+}
+
+.productBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.product_btn {
+    width: 10vw;
+    height: 2.8rem;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    font-size: 1rem;
+    margin-right: .5rem;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid rgb(117, 121, 117);
+}
+
+.product_btn:hover {
+    width: 10vw;
+    color: green;
+    height: 2.8rem;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    font-size: 1rem;
+    margin-right: .5rem;
+    font-weight: 600;
+    border: 5px solid green;
+    background-color: #fff;
+}
+
+@media(max-width:768px) {
+    .products {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vh;
+    }
+
+    .product_btn {
+        width: 25vw;
+        height: 2rem;
+        border-radius: 2rem;
+        margin: 2rem 2rem;
+        font-size: 1rem;
+        margin-right: .5rem;
+
+    }
+
+    .product_btn:hover {
+        width: 25vw;
+        height: 2rem;
+        border-radius: 2rem;
+        margin: 2rem 2rem;
+        font-size: 1rem;
+        margin-right: .5rem;
+    }
+
+    .productBtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:360px) {
+    .heading_products {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        font-size: 2rem;
+        margin-left: 0;
+    }
+
+    .product_btn {
+        width: 30vw;
+        /* scroll-behavior: smooth; */
+        font-size: 1rem;
+        margin: .1rem .1rem;
+    }
+    
+}
